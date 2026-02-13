@@ -1,0 +1,33 @@
+# Bus Tracker configuration
+# Copy this file to config.yaml and edit for your stops.
+
+# Your MBTA API key (get one free at https://api-v3.mbta.com/)
+# Strongly recommended -- without it, rate limit is only 20 requests/min.
+mbta_api_key: "your-key-here"
+
+# How often to refresh data from MBTA (seconds)
+cache_ttl: 20
+
+# How long to serve stale data if MBTA is down (seconds)
+stale_max_age: 300
+
+# Optional: protect your API with a key.
+# If set, all /v1/* requests must include X-API-Key header.
+# api_key: "some-secret"
+
+# Your bus stops.
+# Find your route_id, stop_id, and direction_id at https://api-v3.mbta.com/
+stops:
+  - key: "route_1_inbound"
+    label: "Route 1 - Harvard Sq"
+    route_id: "1"
+    stop_id: "place-harsq"
+    direction_id: 0
+    walk_minutes: 4
+
+  - key: "route_77_outbound"
+    label: "77 - Porter Square"
+    route_id: "77"
+    stop_id: "place-portr"
+    direction_id: 1
+    walk_minutes: 6

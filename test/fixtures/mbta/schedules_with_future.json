@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "arrival_time": "2026-02-13T12:50:00-05:00",
+        "departure_time": "2026-02-13T12:50:30-05:00"
+      },
+      "relationships": {
+        "trip": { "data": { "id": "sched-001" } },
+        "route": { "data": { "id": "1" } },
+        "stop": { "data": { "id": "place-test" } }
+      }
+    },
+    {
+      "attributes": {
+        "arrival_time": "2026-02-13T13:10:00-05:00",
+        "departure_time": "2026-02-13T13:10:30-05:00"
+      },
+      "relationships": {
+        "trip": { "data": { "id": "sched-002" } },
+        "route": { "data": { "id": "1" } },
+        "stop": { "data": { "id": "place-test" } }
+      }
+    }
+  ]
+}

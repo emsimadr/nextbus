@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "arrival_time": null,
+        "departure_time": "2026-02-13T12:45:00-05:00"
+      },
+      "relationships": {
+        "trip": { "data": { "id": "trip-010" } },
+        "route": { "data": { "id": "1" } },
+        "stop": { "data": { "id": "place-test" } }
+      }
+    },
+    {
+      "attributes": {
+        "arrival_time": null,
+        "departure_time": null
+      },
+      "relationships": {
+        "trip": { "data": { "id": "trip-011" } },
+        "route": { "data": { "id": "1" } },
+        "stop": { "data": { "id": "place-test" } }
+      }
+    }
+  ]
+}
